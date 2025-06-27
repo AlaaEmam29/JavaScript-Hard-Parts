@@ -1,12 +1,6 @@
 {
-  "buildCommand": "pip install mkdocs-material && mkdocs build",
+  "buildCommand": "pip3 install -r requirements.txt && python3 -m mkdocs build",
   "outputDirectory": "site",
-  "installCommand": "pip install mkdocs-material",
-  "framework": null,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "installCommand": "pip3 install -r requirements.txt"
 }
+
