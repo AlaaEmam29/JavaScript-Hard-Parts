@@ -7,12 +7,14 @@ Thank you for your interest in contributing to the JavaScript Hard Parts Resourc
 ### 1. Suggest a New Resource
 
 **Easy Way (Recommended):**
-- Visit our website: [JavaScript Hard Parts Resources](https://xkrwbvqr.manus.space)
+
+- Visit our website: [JavaScript Hard Parts Resources](https://js-deep-learn.vercel.app)
 - Click the "Add Resource" button in the header
 - Fill out the comprehensive form with resource details
 - Submit to automatically create a GitHub issue
 
 **Manual Way:**
+
 - Create a new GitHub issue using our resource suggestion template
 - Provide all required information about the resource
 
@@ -21,6 +23,7 @@ Thank you for your interest in contributing to the JavaScript Hard Parts Resourc
 For a resource to be included in our collection, it must meet these standards:
 
 #### ✅ **Must Have:**
+
 - **Deep and Technical**: Explains JavaScript mechanisms and internals, not just syntax
 - **Unique Value**: Offers insights, perspectives, or explanations not found in other resources
 - **Expert Authors**: Written by recognized JavaScript experts, educators, or experienced developers
@@ -28,6 +31,7 @@ For a resource to be included in our collection, it must meet these standards:
 - **Relevant**: Fits within the Frontend Masters "JavaScript: The Hard Parts v2" course structure
 
 #### 🎯 **Preferred Types:**
+
 - **Engine-Level Technical**: V8, SpiderMonkey, bytecode, optimization strategies
 - **Specification Level**: ECMA-262 references, official documentation
 - **Visual Understanding**: Animated explanations, step-by-step breakdowns
@@ -35,6 +39,7 @@ For a resource to be included in our collection, it must meet these standards:
 - **Mental Model Building**: First-principles explanations, conceptual frameworks
 
 #### ❌ **We Don't Accept:**
+
 - Basic tutorials that don't add unique value
 - Duplicate content already covered by existing resources
 - Promotional content without substantial educational value
@@ -44,53 +49,65 @@ For a resource to be included in our collection, it must meet these standards:
 ## 📚 Resource Categories
 
 ### **JavaScript Principles**
+
 - Thread of Execution, Functions, Call Stack, Global Context
 - Execution model, memory allocation, hoisting mechanisms
 
 ### **Functions & Callbacks**
+
 - Higher-Order Functions, Generalized Functions, Arrow Functions
 - Function internals, scope resolution, this binding
 
 ### **Closure**
+
 - Lexical Environment, Function Memory, Practical Applications
 - Closure optimization, memory management, advanced patterns
 
 ### **Asynchronous JavaScript**
+
 - Event Loop, Web APIs, Callback Queue, Single-threaded Execution
 - Microtask vs macrotask, browser vs Node.js differences
 
 ### **Promises**
+
 - Microtask Queue, Promise Execution, then/catch mechanisms
 - Promise internals, async/await implementation
 
 ### **Classes & Prototypes**
+
 - OOP, Prototype Chain, this keyword, new operator, class syntax
 - Prototypal inheritance, behavior delegation
 
 ### **Advanced ES6+ Concepts**
+
 - Iterators, Generators, async/await implementation, Advanced Patterns
 - Modern JavaScript features and their internal mechanisms
 
 ## 🔄 Review Process
 
 ### **Step 1: Submission**
+
 - Resource suggestion submitted via website or GitHub issue
 - Automatic validation of required fields
 
 ### **Step 2: Community Review**
+
 - Community members can comment and discuss the resource
 - Feedback on quality, relevance, and uniqueness
 
 ### **Step 3: Maintainer Review**
+
 - Project maintainers evaluate against quality criteria
 - Check for duplicates and verify resource accessibility
 
 ### **Step 4: Integration**
+
 - Approved resources are manually added to the codebase
 - Website is updated and redeployed
 - Original issue is closed with link to live resource
 
 ### **Step 5: Quality Assurance**
+
 - Periodic review of existing resources for broken links
 - Community feedback on resource quality and relevance
 
@@ -119,11 +136,13 @@ npm run preview
 ## 📝 Code Contribution Guidelines
 
 ### **File Structure:**
+
 - **Resource Data**: All resources are stored in `src/data/resources.js`
 - **Components**: React components in `src/components/`
 - **Styling**: CSS modules and Tailwind classes
 
 ### **Adding a New Resource:**
+
 1. Edit `src/data/resources.js`
 2. Find the appropriate section (e.g., `'javascript-principles'`)
 3. Add new resource object to the `resources` array:
@@ -141,6 +160,7 @@ npm run preview
 ```
 
 ### **Resource Types:**
+
 - `'Visual Understanding'`
 - `'Engine-Level Technical'`
 - `'Specification Level'`
@@ -150,6 +170,7 @@ npm run preview
 - `'Interactive Guide'`
 
 ### **Commit Message Format:**
+
 ```
 feat: Add new resource: [Resource Title]
 fix: Update broken link for [Resource Title]
@@ -160,6 +181,7 @@ style: Improve resource card styling
 ## 🏆 Recognition
 
 Contributors who suggest high-quality resources will be:
+
 - Acknowledged in the resource description
 - Listed in the project's contributors section
 - Mentioned in project updates and releases
@@ -188,4 +210,3 @@ Special thanks to all contributors who help make this the ultimate JavaScript le
 ---
 
 **Together, let's build the most comprehensive JavaScript learning resource collection available!** 🚀
-

@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 🌐 Add Resource via Website
-    url: https://xkrwbvqr.manus.space
+    url: https://js-deep-learn.vercel.app
     about: Use our website's "Add Resource" button for the easiest way to suggest new resources
   - name: 📖 Frontend Masters Course
     url: https://frontendmasters.com/courses/javascript-hard-parts-v2/
