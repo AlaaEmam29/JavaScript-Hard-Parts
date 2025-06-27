@@ -1,0 +1,14 @@
+{
+  "buildCommand": "pip install mkdocs-material && mkdocs build",
+  "outputDirectory": "site",
+  "installCommand": "pip install mkdocs-material",
+  "framework": null,
+  "functions": {},
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+

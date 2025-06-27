@@ -174,4 +174,3 @@ extra_css:
 # Custom JavaScript
 extra_javascript:
   - javascripts/extra.js
-
