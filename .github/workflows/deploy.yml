@@ -1,0 +1,45 @@
+# This workflow can be used for automatic deployment
+# Currently commented out - uncomment and configure when ready for auto-deployment
+
+# name: Deploy to Production
+
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+    
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v4
+      
+#     - name: Setup Node.js
+#       uses: actions/setup-node@v4
+#       with:
+#         node-version: '20'
+#         cache: 'npm'
+        
+#     - name: Install dependencies
+#       run: npm ci
+      
+#     - name: Build project
+#       run: npm run build
+      
+#     - name: Run tests (if any)
+#       run: npm test --if-present
+      
+#     # Add deployment steps here when ready
+#     # - name: Deploy to hosting service
+#     #   run: echo "Add deployment commands here"
+
+# Note: This workflow is currently disabled
+# To enable automatic deployment:
+# 1. Uncomment the workflow above
+# 2. Configure your deployment service credentials in GitHub Secrets
+# 3. Add the appropriate deployment commands
+# 4. Test the workflow on a development branch first
+

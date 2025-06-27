@@ -1,0 +1,15 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 Add Resource via Website
+    url: https://xkrwbvqr.manus.space
+    about: Use our website's "Add Resource" button for the easiest way to suggest new resources
+  - name: 📖 Frontend Masters Course
+    url: https://frontendmasters.com/courses/javascript-hard-parts-v2/
+    about: Visit the original "JavaScript: The Hard Parts, v2" course by Will Sentance
+  - name: 💬 GitHub Discussions
+    url: https://github.com/AlaaEmam29/JavaScript-Hard-Parts/discussions
+    about: Ask questions and discuss JavaScript concepts with the community
+  - name: 📚 Documentation
+    url: https://github.com/AlaaEmam29/JavaScript-Hard-Parts#readme
+    about: Read the project documentation and contribution guidelines
+
