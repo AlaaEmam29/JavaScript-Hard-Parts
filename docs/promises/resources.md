@@ -5,7 +5,7 @@
     
     Deep understanding of Promise implementation, microtask queue, and async/await patterns.
 
-## 📚 Complete Resource Collection (12 Resources)
+## 📚 Complete Resource Collection (15 Resources)
 
 ### Visual Understanding
 
@@ -151,6 +151,40 @@
 
 ---
 
+#### 13. 101 Series: Promises #1 - How Promises Work
+**Author:** Xnimorz  
+**Type:** Deep Technical Understanding  
+**URL:** [https://dev.to/xnimorz/101-series-promises-1-how-promises-work-1k1i](https://dev.to/xnimorz/101-series-promises-1-how-promises-work-1k1i)
+
+**Focus:** Comprehensive guide to promise mechanics, implementation details, and practical usage patterns
+
+**Why Essential:** Detailed explanation of how promises work under the hood with practical examples
+
+---
+
+
+#### 14. JS Promises #2: How to Get Current Promise Status and Build Your Own Promise Queue
+**Author:** Xnimorz (Nik)  
+**Type:** Deep Technical Understanding  
+**URL:** [https://dev.to/xnimorz/js-promises-2-how-to-get-current-promise-status-and-build-your-own-promise-queue-3lkd](https://dev.to/xnimorz/js-promises-2-how-to-get-current-promise-status-and-build-your-own-promise-queue-3lkd)
+
+**Focus:** Promise status inspection, custom promise queue implementation, advanced promise patterns
+
+**Why Essential:** Learn how to build custom promise management systems and inspect promise states
+
+---
+
+#### 15. JS Promises #3: Garbage Collection and Memory Leaks
+**Author:** Xnimorz (Nik)  
+**Type:** Advanced Promise Patterns  
+**URL:** [https://dev.to/xnimorz/js-promises-3-garbage-collection-and-memory-leaks-25ol](https://dev.to/xnimorz/js-promises-3-garbage-collection-and-memory-leaks-25ol)
+
+**Focus:** Promise memory management, garbage collection with promises, preventing memory leaks
+
+**Why Essential:** Understanding memory implications of promise usage and avoiding common memory pitfalls
+
+---
+
 ## 🎯 Learning Path for This Section
 
 ### Beginner Level
@@ -189,4 +223,3 @@
 
 !!! tip "Study Tip"
     Focus on understanding promises as **two-pronged façade functions** that trigger both immediate synchronous code and future asynchronous code via the microtask queue. Practice tracing promise execution through the event loop.
-

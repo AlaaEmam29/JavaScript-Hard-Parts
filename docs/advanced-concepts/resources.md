@@ -5,7 +5,7 @@
     
     Master advanced ES6+ features for sophisticated async programming and data flow control.
 
-## 📚 Complete Resource Collection (12 Resources)
+## 📚 Complete Resource Collection (14 Resources)
 
 ### Frontend Masters Course
 
@@ -191,4 +191,27 @@
 
 !!! tip "Study Tip"
     Focus on understanding how **generators enable custom iteration and async control flow**. Practice building iterators and generators to understand how async/await works under the hood as syntactic sugar over these foundational concepts.
+
+
+#### 13. JavaScript Memory Management 101: Strong and Weak Refs, FinalizationRegistry
+**Author:** Xnimorz (Nik)  
+**Type:** Advanced Memory Management  
+**URL:** [https://dev.to/xnimorz/javascript-memory-management-101-strong-and-weak-refs-finalizationregistry-2n6g](https://dev.to/xnimorz/javascript-memory-management-101-strong-and-weak-refs-finalizationregistry-2n6g)
+
+**Focus:** WeakRef, WeakMap, WeakSet, FinalizationRegistry, memory leak prevention
+
+**Why Essential:** Master advanced memory management techniques and modern JavaScript memory APIs
+
+---
+
+#### 14. Hitchhiker's Guide to Frontend Performance Optimization - Critical Render Path
+**Author:** Xnimorz (Nik)  
+**Type:** Performance Optimization  
+**URL:** [https://dev.to/xnimorz/hitchhiker-s-guide-to-frontend-performance-optimization-part-1-critical-render-path-2oe3](https://dev.to/xnimorz/hitchhiker-s-guide-to-frontend-performance-optimization-part-1-critical-render-path-2oe3)
+
+**Focus:** Critical render path optimization, browser rendering pipeline, performance best practices
+
+**Why Essential:** Deep understanding of browser rendering process and performance optimization strategies
+
+---
 

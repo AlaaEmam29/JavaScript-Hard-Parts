@@ -5,7 +5,7 @@
     
     Master function creation, invocation, and callback patterns for powerful JavaScript programming.
 
-## 📚 Complete Resource Collection (10 Resources)
+## 📚 Complete Resource Collection (11 Resources)
 
 ### Visual Understanding
 
@@ -165,4 +165,16 @@
 
 !!! tip "Study Tip"
     Focus on understanding functions as **first-class citizens** in JavaScript. Practice writing higher-order functions and understanding how callbacks enable powerful programming patterns.
+
+
+#### 11. Dealing with Callbacks as Props in React
+**Author:** Xnimorz (Nik)  
+**Type:** Practical Applications  
+**URL:** [https://dev.to/xnimorz/dealing-with-callbacks-as-props-in-react-3dh6](https://dev.to/xnimorz/dealing-with-callbacks-as-props-in-react-3dh6)
+
+**Focus:** React callback patterns, prop drilling solutions, callback optimization in React
+
+**Why Essential:** Practical application of callback patterns in modern React development
+
+---
 

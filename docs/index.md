@@ -1,7 +1,7 @@
 # JavaScript Hard Parts - Deep Learning Resources
 
 !!! info "Welcome to the Ultimate JavaScript Learning Collection"
-    Master JavaScript fundamentals with **79 carefully curated deep technical resources** following the Frontend Masters "JavaScript: The Hard Parts v2" course structure.
+    Master JavaScript fundamentals with **86 carefully curated deep technical resources** following the Frontend Masters "JavaScript: The Hard Parts v2" course structure.
 
 ## 🎯 What Makes This Collection Special
 
@@ -29,7 +29,7 @@ Master the fundamental execution model of JavaScript with the most important and
 
 Master function creation, invocation, and callback patterns for powerful JavaScript programming.
 
-**10 Resources** | [View All →](functions-callbacks/resources.md)
+**11 Resources** | [View All →](functions-callbacks/resources.md)
 
 ### [🔒 Closure](closure/resources.md)
 **Lexical Environment, Function Memory, Practical Applications**
@@ -43,14 +43,14 @@ Deep dive into closures - how functions remember their lexical environment and p
 
 Master async programming with deep understanding of the event loop and browser APIs.
 
-**12 Resources** | [View All →](asynchronous-javascript/resources.md)
+**13 Resources** | [View All →](asynchronous-javascript/resources.md)
 
 ### [🏗️ Promises](promises/resources.md)
 **Microtask Queue, Promise Execution, then/catch mechanisms**
 
 Understand promise internals, microtask queue mechanics, and async/await implementation.
 
-**11 Resources** | [View All →](promises/resources.md)
+**15 Resources** | [View All →](promises/resources.md)
 
 ### [🏗️ Classes & Prototypes](classes-prototypes/resources.md)
 **OOP, Prototype Chain, this keyword, new operator, class syntax**
@@ -64,7 +64,7 @@ Master JavaScript's unique approach to object-oriented programming and inheritan
 
 Explore modern JavaScript features and their internal mechanisms.
 
-**12 Resources** | [View All →](advanced-concepts/resources.md)
+**14 Resources** | [View All →](advanced-concepts/resources.md)
 
 ## 🎓 Learning Approaches
 
@@ -108,10 +108,10 @@ Help us build the ultimate JavaScript learning resource collection!
 
 ## 📊 Statistics
 
-- **Total Resources**: 79 carefully curated articles and videos
+- **Total Resources**: 86 carefully curated articles and videos
 - **Expert Authors**: 25+ recognized JavaScript educators  
 - **Topics Covered**: 7 major JavaScript concepts
-- **Learning Hours**: 100+ hours of deep technical content
+- **Learning Hours**: 103+ hours of deep technical content
 - **Skill Level**: Intermediate to Expert
 
 ## 🏆 Acknowledgments

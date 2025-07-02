@@ -5,7 +5,7 @@
     
     Master async programming with deep understanding of the event loop and browser APIs.
 
-## 📚 Complete Resource Collection (12 Resources)
+## 📚 Complete Resource Collection (13 Resources)
 
 ### Classic Deep Technical Resource
 
@@ -191,4 +191,16 @@
 
 !!! tip "Study Tip"
     Focus on understanding the **event loop as the coordinator** of JavaScript's single-threaded execution with asynchronous capabilities. Practice tracing through async code execution step by step.
+
+
+#### 13. Event Loop and Render Queue
+**Author:** Xnim  
+**Type:** Advanced Concepts  
+**URL:** [https://blog.xnim.me/event-loop-and-render-queue](https://blog.xnim.me/event-loop-and-render-queue)
+
+**Focus:** Deep dive into event loop mechanics and render queue interaction, browser rendering process
+
+**Why Essential:** Understanding how event loop coordinates with browser rendering and UI updates
+
+---
 

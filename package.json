@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "JavaScript Hard Parts Documentation",
   "scripts": {
-    "build": "pip3 install -r requirements.txt && python3 -m mkdocs build"
+    "dev": "python3 index.py && mkdocs serve",
+    "build": "python3 index.py && pip3 install -r requirements.txt && python3 -m mkdocs build"
   },
   "devDependencies": {},
   "dependencies": {}
 }
-
