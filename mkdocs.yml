@@ -1,0 +1,180 @@
+site_name: JavaScript Hard Parts - Deep Learning Resources
+site_description: Master JavaScript fundamentals with 79 carefully curated deep technical resources following the Frontend Masters course structure
+site_author: Alaa Emam
+site_url: https://js-deep-learn.vercel.app
+
+# Repository
+repo_name: AlaaEmam29/JavaScript-Hard-Parts
+repo_url: https://github.com/AlaaEmam29/JavaScript-Hard-Parts
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 Alaa Emam
+
+# Configuration
+theme:
+  name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/logo.svg
+  logo: assets/logo.svg
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AlaaEmam29
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alaa-emamm
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: AlaaEmam29
+      repo: JavaScript-Hard-Parts
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Learning Path: getting-started/learning-path.md
+    - How to Use: getting-started/how-to-use.md
+  - Kyle Simpson:
+    - Deep JavaScript Foundations: https://frontendmasters.com/courses/deep-javascript-v3/
+    - You Don't Know JS: https://github.com/getify/You-Dont-Know-JS
+  - JavaScript Principles:
+    - Overview: javascript-principles/index.md
+    - Thread of Execution: javascript-principles/thread-of-execution.md
+    - Functions: javascript-principles/functions.md
+    - Call Stack: javascript-principles/call-stack.md
+    - All Resources: javascript-principles/resources.md
+  - Types:
+    - Overview: types/index.md
+    - All Resources: types/resources.md
+  - Functions & Callbacks:
+    - All Resources: functions-callbacks/resources.md
+  - Closure:
+    - All Resources: closure/resources.md
+  - Asynchronous JavaScript:
+    - All Resources: asynchronous-javascript/resources.md
+  - Promises:
+    - All Resources: promises/resources.md
+  - Classes & Prototypes:
+    - All Resources: classes-prototypes/resources.md
+  - Advanced ES6+ Concepts:
+    - All Resources: advanced-concepts/resources.md
+  - Contributing:
+    - How to Contribute: contributing/index.md
+    - Quality Standards: contributing/quality-standards.md
+    - Add Resource: "https://github.com/AlaaEmam29/JavaScript-Hard-Parts/issues/new?template=resource-suggestion.md&title=Add%20Resource:%20[Resource%20Title]"
+  - About:
+    - License: about/license.md
+
+# Custom CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Custom JavaScript
+extra_javascript:
+  - javascripts/extra.js

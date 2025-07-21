@@ -1,0 +1,24 @@
+{
+  "name": "js-hard-parts-docs",
+  "version": "1.0.0",
+  "description": "JavaScript Hard Parts Documentation",
+  "scripts": {
+    "setup": "python3 -m venv venv && echo 'Virtual environment created! Run: npm run install-deps'",
+    "install-deps": "bash -c 'source venv/bin/activate && pip install -r requirements.txt'",
+    "start": "bash -c 'source venv/bin/activate && python3 index.py && mkdocs serve'",
+    "start-windows": "venv\\Scripts\\activate && python3 index.py && mkdocs serve",
+    "build": "bash -c 'source venv/bin/activate && pip install -r requirements.txt && python3 -m mkdocs build'",
+    "build-windows": "venv\\Scripts\\activate && pip install -r requirements.txt && python3 -m mkdocs build",
+    "update-counts": "bash -c 'source venv/bin/activate && python3 index.py'",
+    "update-counts-windows": "venv\\Scripts\\activate && python3 index.py",
+    "dev": "bash -c 'source venv/bin/activate && python3 index.py && mkdocs serve'",
+    "dev-windows": "venv\\Scripts\\activate && python3 index.py && mkdocs serve",
+    "build-with-counts": "bash -c 'source venv/bin/activate && python3 index.py && pip install -r requirements.txt && python3 -m mkdocs build'",
+    "build-with-counts-windows": "venv\\Scripts\\activate && python3 index.py && pip install -r requirements.txt && python3 -m mkdocs build",
+    "clean": "rm -rf venv",
+    "clean-windows": "rmdir /s venv",
+    "full-setup": "npm run setup && npm run install-deps && echo 'Setup complete! Run: npm start'"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

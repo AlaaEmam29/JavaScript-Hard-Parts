@@ -1,0 +1,194 @@
+/* Custom styles for JavaScript Hard Parts Resources */
+
+/* Resource cards styling */
+.resource-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: var(--md-code-bg-color);
+}
+
+.resource-card h4 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+/* Resource type badges */
+.resource-type {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.resource-type--visual {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.resource-type--technical {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.resource-type--specification {
+  background: #e8f5e8;
+  color: #2e7d32;
+}
+
+.resource-type--practical {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.resource-type--educational {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+/* Section overview cards */
+.section-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.section-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  background: var(--md-code-bg-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-card h3 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-card .icon {
+  font-size: 1.5rem;
+}
+
+/* Statistics styling */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-code-bg-color);
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--md-primary-fg-color);
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Learning path styling */
+.learning-path {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.learning-path::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--md-primary-fg-color);
+}
+
+.learning-step {
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-code-bg-color);
+}
+
+.learning-step::before {
+  content: '';
+  position: absolute;
+  left: -1.75rem;
+  top: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-overview {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .learning-path {
+    padding-left: 1rem;
+  }
+  
+  .learning-step::before {
+    left: -0.75rem;
+  }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] {
+  .resource-type--visual {
+    background: #1a237e;
+    color: #bbdefb;
+  }
+  
+  .resource-type--technical {
+    background: #4a148c;
+    color: #e1bee7;
+  }
+  
+  .resource-type--specification {
+    background: #1b5e20;
+    color: #c8e6c9;
+  }
+  
+  .resource-type--practical {
+    background: #e65100;
+    color: #ffcc02;
+  }
+  
+  .resource-type--educational {
+    background: #880e4f;
+    color: #f8bbd9;
+  }
+}
+
